@@ -1,8 +1,8 @@
 # Setup
-title:               Lanyon
+title:               Eun-Kang-Choi
 tagline:             'A Jekyll theme'
 description:         'I am <a href="https://github.com/eunkangchoi" target="_blank">@eunkangchoi</a>.'
-url:                 'https://eunkangchoi.github.io'
+url:                 https://eunkangchoi.github.io/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
