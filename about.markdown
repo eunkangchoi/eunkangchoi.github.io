@@ -4,9 +4,6 @@ title: Resume
 permalink: /about/
 ---
 
-작성완료
-{: .label .label-green }
-
 # 안녕하세요. 주니어 백엔드 개발자 **최은강** 입니다.
 {: .no_toc }
 
@@ -53,10 +50,17 @@ permalink: /about/
 
 ---
 
+
+
 ## 스윗코리아
 
- Backend Developer
- {: .fs-4 }
+{: .d-inline-block }
+
+latest
+{: .label .label-purple}
+
+Backend Developer
+{: .fs-4 }
 
 
 > Period
@@ -127,18 +131,17 @@ What Did I Do?
 > 3. 리턴 타입을 `map[string]interface{}{}` 으로 바꿈으로써 각 업무카드에 연관된 메일들을 불러오는 API 를 개선하였고, 이로인해 업무카드 리스트를 보여주는데 걸리는 시간을 3m 에서 250ms 로 단축시켰습니다.
 >
 
+<br>
 
-<br><br>
-
-To Share Knowledges - 자기주도적으로 문서화 및 공유하여 불편사항을 개선한 경험
-{: .fs-4 }
+### 6. 자기주도적으로 문서화 및 공유하여 불편사항을 개선한 경험
+{: .no_toc .mt-3 }
 
 >신규입사자들의 입장을 생각하여 신규입사자들이 설치에 어려움없이 빠르게 환경셋팅을  조성할 수 있도록 IDE를 포함한 백엔드 **개발환경 셋팅 가이드라인** 과 **로컬호스트에서 Go-Land 디버깅하는 과정**을 Jira Confluence에 공유했습니다. <br><br>1년동안 사내 Confluence 다큐먼트 중 가장 많은 조회수를 유지했고, 선배동료가 신규입사자에게 제가 만든 다큐먼트를 공유하는 모습을 보며 뿌듯함을 느꼈습니다. 내가 아는 지식을 문서화시키고 공유하여 다른사람에게 작은 도움을 줄 수 있는 개발자가 되고 싶습니다.
 
 
 ---
 
-# Before Working, When I was a Student
+# Educations
 {: .text-delta}
 
 ## KH 정보교육원 수료
