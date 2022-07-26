@@ -76,14 +76,18 @@ nvm, tj/n을 왜 사용하는가?
 npm (Node Package Manager) 은 Node.js 의 기본 패키지 관리자이다.
 Node.js 에서 사용할 수 있는 모듈들을 패키지화 하여 모아둔 저장소 역할과 패키지 설치 및 관리를 위한 CLI(Command Line Interface)를 제공한다.
 
+
 Node.js 프로젝트가 의존하고 있는 패키지의 업데이트되므로, package.json 파일을 통해서 프로젝트 정보와 패키지 의존성(dependency)을 관리한다. 또한 여러컴퓨터에서 같은 코드로 작업할 때 동일한 개발환경으로 빠르게 구축할 수 있다.
+
 
 package.json 은 해당 프로그램을 실행시키기 위해서 필요한 모듈, 프로그램 실행방법, 테스트 방법 등 이 표기 되어있다.
 package.json은 Maven의 pom.xml 과 비슷한 역할을 한다. 
  
+
 실제 로컬환경에서 설치된 버젼을 확인하고 싶다면 package-lock.json 에서 볼 수 있다. 
 여러사람들과 함께 작업하는 경우에는 package-lock.json 을 커밋해야한다. 그 이유는 서로간에 패키지 버젼이 안맞는 문제를 방지 할 수 있기 때문이다.
  
+
 실제 모듈들은 node_modules 라는 폴더에 저장되어있다.
 node_modules 폴더안에 있는 .bin 은 실행할 수 있는 바이너리 파일이다.
  
@@ -93,6 +97,7 @@ node_modules 폴더안에 있는 .bin 은 실행할 수 있는 바이너리 파�
 $ npm init -y
 ```
 
+
 * [추가] npm install 할 때 패키지 명령어와 플래그들 의미
 
 - `-D`, `--save-dev` : 패키지를 설치하고, 프로젝트의 devDependencies 목록(개발단계에서만 필요)에 추가.
@@ -100,12 +105,15 @@ $ npm init -y
 - `-g` , `--global` :  시스템 폴더에 패키지를 설치. package.json 의 의존성 목록에 기록되지 않음.
 
 
+
 ### 2.2 Prettier 와 ESLint 와 TypeScript
 여러사람들과 프로젝트를 함께 작업할 때 코드에 오타가 있거나, 코드라인이 엉망인 것과 같은 가독성이 좋지 않을 경우에는 시간낭비가 크다. 코드의 품질과 쓸데없는 시간을 단축시키기 위해서 IDE의 코드포맷팅 도구가 있다. 
  
+
 2.2.1 Prettier - Formatting 패키지. 세미콜론이 붙어있는지, 스페이스와 같은 문자그대로를 검토해준다.
 Prettier 설치
 vscode의 extensions에서 prettier을 설치할 수 있다
+
 
 ```shell
 $ npm install --save-dev prettier
@@ -121,6 +129,7 @@ prettier에서 설정파일인 `.prettierrc.json` 이 필요하다.
     	"signleQuote": false
 }
 ```
+
 
 vscode에서 프리티어가 동작하려면 `setting.json` 파일이 필요하다.
 .vscode 폴더를 만든 후에, .vscode 폴더 안에 `setting.json` 파일을 생성한다.
