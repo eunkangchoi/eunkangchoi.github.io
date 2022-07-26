@@ -5,7 +5,7 @@ parent: Node.JS
 ---
 
 작성중
-{: .label .label-yellow }
+{: .label .label-green }
 
 * 수강강좌: 한번에 끝내는 Node.js 웹프로그래밍 초격차 패키지 온라인
 
@@ -132,7 +132,19 @@ console.log(animals) // ['dog', 'cat']
 ##### CommonJS Module
 {: .no_toc .fs-5 }
 
+- `require()` 함수로 모듈을 불러온다.
+  - 프로젝트 내 모듈은 상대경로로 불러올 수 있다.
+  - **node에 내장된 모듈**(node standard library에 있는 모듈)은 절대경로를 지정해서 불러올 수 있다.
+  - 해당 모듈이 `node_modules` 디렉토리 안에 있거나, `node_modules` 내부의 폴더안에 있다면 절대경로로 지정해서 불러올 수 있다.
+  - 절대경로(이름)을 지정하면, module.paths의 경로들을 순서대로 검사하여 해당 모듈이 있으면, 가장 먼저 발견한 모듈을 불러온다.
 
+
+- 모듈 안에 정의된 변수는 `private` 타입을 갖는다.
+
+
+- 같은 모듈을 여러번 불러와도 딱 한번만 호출된다. 즉 불러오는 모듈은 모두 같은 대상이다.(동일한 객체이다)
+
+<br>
 
 CommonJS Module 예시1
 {: .fs-5 .fw-300 }
@@ -166,7 +178,7 @@ console.log(`반지름이 4인 원의 둘레: ${circle.circumference(4)}`)
 _Functions and objects are added to the root of a module by specifying additional properties on the special `exports` object._
 {: .fs-3 }
 
-exports 특정 키워드로 명시된 객체에 정의된 함수나 객체를 정의할 수 있다.
+**exports 특정 키워드로 명시된 객체에 정의된 함수나 객체를 정의할 수 있다.**
 
 <br>
 
@@ -176,9 +188,132 @@ _Variables local to the module will be private, because the module is wrapped in
 _In this example, the variable `PI` is private to `circle.js`_
 {: .fs-3 }
 
-함수모듈에 있는 로컬변수는 private 타입을 갖는다.
+**함수모듈에 있는 로컬변수는 private 타입을 갖는다.**
 
 <br>
 
+CommonJS Module 예시 2-1
+{: .fs-5 .fw-300 }
+
+- animals.js
+
+```js
+const animals = ['dog', 'cat']
+console.log('::: animals.js loaded')
+module.exports = animals
+```
+
+<br>
+
+- main.js
+
+```js
+// 같은 경로에 있는 animals.js 를 불러온다.
+const animalsA = require('./animals');
+const animalsB = require('./animals');
+const animalsC = require('./animals');
+
+console.log(animalsA === animalsB) // true
+console.log(animalsA === animalsC) // true
+console.log(animalsC === animalsB) // true
+```
+
+
+
+- console.log result
+
+```md
+::: animals.js loaded
+true
+true
+true
+```
+
+animalsA, animalsB, animalsC는 모두 같은 대상을 가리킨다.
+
+<br>
+
+CommonJS Module 예시 2-2
+{: .fs-5 .fw-300}
+
+animals.js 처럼 사용자가 직접 만든 모듈을 불러오는게 아닌
+`http`와 같은 **node에 내장 되어있는 모듈**을 불러온다면 **해당 모듈이름(절대경로)**을 불러오면된다.
+
+```js
+/* eslint-disable */
+const http = require('http');
+```
+
+
+<br>
+
+CommonJS Module 예시 2-3
+{: .fs-5 .fw-300 }
+
+예시 2-1의 animals.js 모듈을 `node_modules` 디렉토리 안에 복사했다고 가정하자. 
+
+또는 animals.js 모듈을 `node_modules` 디렉토리 안에 새로운폴더 `tmp`를 만들어서 복사했다고 하자.(즉, 경로가 node_modules/tmp 인 경우이다)
+
+
+`node_modules` 디렉토리 안에 있는 모듈을 불러올 때는 위예시와 마찬가지로 **해당 모듈 이름(절대경로)**를 불러오면된다.
+
+- main.js
+
+```js
+/* eslint-disable */
+// file-path: node_modules/animals.js
+const mAnimals = require('animals')
+console.log(mAnimals)
+
+// file-path: node_modules/tmp/animals.js
+const tAnimals = require('tmp/animals')
+console.log(tAnimals)
+```
+
+
+
+CommonJS Module 예시 3
+{: .fs-5 .fw-300 }
+
+- main.js
+
+```js
+const {path, paths, filename} = module
+console.log({ path, paths, filename })
+```
+
+
+- console.log result
+
+```md
+{
+  path: '/Users/seokangchoi/Documents/ek_projects/f01_simple_rest_api_nodejs/practices/common_js',
+  paths: [
+    '/Users/seokangchoi/Documents/ek_projects/f01_simple_rest_api_nodejs/practices/common_js/node_modules',
+    '/Users/seokangchoi/Documents/ek_projects/f01_simple_rest_api_nodejs/practices/node_modules',
+    '/Users/seokangchoi/Documents/ek_projects/f01_simple_rest_api_nodejs/node_modules',
+    '/Users/seokangchoi/Documents/ek_projects/node_modules',
+    '/Users/seokangchoi/Documents/node_modules',
+    '/Users/seokangchoi/node_modules',
+    '/Users/node_modules',
+    '/node_modules'
+  ],
+  filename: '/Users/seokangchoi/Documents/ek_projects/f01_simple_rest_api_nodejs/practices/common_js/main.js'
+}
+```
+
+<br>
+
+- `path` 는 해당모듈이 속한 절대경로를 의미한다. (단, 해당모듈 이름은 제외된다.)
+
+
+- `paths` 는 해당모듈을 탐색하여 거친 경로들을 의미한다. 루트 디렉토리(/)를 시작점으로 하여 해당모듈이 포함한 위치까지 구석구석 찾는다. 여기서 `node_modules` 는 위의 예시 2-3 과 node에 설치된 모듈들을 저장한 디렉토리인 node_modules 와 다르게 **경로의 끝**을 의미한다. 
+
+Node.js will not append `node_modules` to a path already ending in `node_modules`
+
+
+- `filename` 은 해당모듈명까지 포함된 절대경로이다.
+
+- 참고자료 링크: [Loading from node_modules folders](https://nodejs.org/api/modules.html#loading-from-node_modules-folders)
 
 ---
