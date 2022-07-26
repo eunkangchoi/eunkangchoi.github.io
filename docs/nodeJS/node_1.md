@@ -4,8 +4,8 @@ title: Node.JS 시작하기
 parent: Node.JS
 ---
 
-아직작성중
-{: .label .label-yellow }
+작성완료
+{: .label .label-green }
 
 * 수강강좌: 한번에 끝내는 Node.js 웹프로그래밍 초격차 패키지 온라인
 
