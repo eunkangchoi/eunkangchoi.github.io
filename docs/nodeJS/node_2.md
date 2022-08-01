@@ -4,7 +4,7 @@ title: module 과 require
 parent: Node.JS
 ---
 
-작성중
+작성완료
 {: .label .label-green }
 
 * 수강강좌: 한번에 끝내는 Node.js 웹프로그래밍 초격차 패키지 온라인
