@@ -2,6 +2,8 @@
 layout: default
 title: Node.JS 시작하기
 parent: Node.JS
+tags:
+    - Node.js
 ---
 
 작성완료

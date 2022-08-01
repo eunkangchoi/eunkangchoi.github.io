@@ -2,6 +2,15 @@
 layout: table_wrappers
 ---
 
+{%- assign ordered_pages_list = site.html_pages | 
+  where_exp:"item", "item.nav_exclude != true" |
+  where_exp:"item", "item.nav_order != nil" | sort:"nav_order" -%}
+{%- assign unordered_pages_list = site.html_pages |
+  where_exp:"item", "item.nav_exclude != true" |
+  where_exp:"item", "item.nav_order == nil" | sort:"title" -%}
+{%- assign hierarchy = ordered_pages_list | concat: unordered_pages_list | group_by:"parent" -%}
+{%- assign top_nodes = hierarchy | where_exp:"item", "item.name == ''" | map: "items" | first -%}
+
 <!DOCTYPE html>
 
 <html lang="{{ site.lang | default: 'en-US' }}">
@@ -58,11 +67,13 @@ layout: table_wrappers
             {% if collections_size > 1 %}
               <div class="nav-category">{{ collection_value.name }}</div>
             {% endif %}
-            {% include nav.html pages=collection %}
+            {% include nav.html pages=collection nodes=top_nodes %}
+            {% include nav_tags.html %}
           {% endif %}
         {% endfor %}
       {% else %}
-        {% include nav.html pages=site.html_pages %}
+        {% include nav.html pages=site.html_pages nodes=top_nodes %}
+        {% include nav_tags.html %}
       {% endif %}
     </nav>
     <footer class="site-footer">
