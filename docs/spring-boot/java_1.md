@@ -1,12 +1,25 @@
 ---
 layout: default
-title: Java 설치 & Eclipse IDE 설치 & Java 프로그래밍 시작
+title: (Java) Java 설치 & Eclipse IDE 설치 & Java 프로그래밍 시작
 parent: spring-boot
 tags:
     - java
     - eclipse
     - 프로그래밍
     - 패스트캠퍼스 국비교육
+
+comments: true
+---
+
+작성완료
+{: .label .label-green }
+
+## Table of contents
+{: .no_toc .text-delta}
+
+1. TOC
+{:toc}
+
 ---
 
 ### **환경 설치**
