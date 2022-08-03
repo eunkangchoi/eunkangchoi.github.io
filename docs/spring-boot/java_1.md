@@ -24,9 +24,7 @@ tags:
 
 -   Download from: Korea, Republic Of - Kakao Corp. (https)
 -   File: eclipse-inst-jre-mac64.dmg
--   설치링크
-
-[https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg) 
+-   설치링크: [https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg) 
 
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbVlgOA%2FbtrIT8mJtpi%2Fk6VqBwEHuzecrymLyxtB01%2Fimg.png)
