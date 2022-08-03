@@ -82,7 +82,12 @@ macOS에서 eclipse ide 경로의 기본값으로는 **`/Users/유저명/eclipse
 
 ### **첫 Java 프로젝트 만들기**
 
+
+**Create a Java Project** 를 클릭합니다.
+
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FPkIJz%2FbtrIO13srRL%2FszGVslmhVFNO3CYKwkhjik%2Fimg.png)
+
+<br><br>
 
 프로젝트를 생성할 때, **프로젝트명**(Project Name)**의 맨앞은 대문자**로 합니다.
 
