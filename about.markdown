@@ -69,7 +69,7 @@ Backend Developer
 > Tech Stack
 >> - **Programming Language** : Go, Javascript (AngularJS)
 >>
->> - **Database**: MySQL
+>> - **Database**: MySQL, NoSQL(Redis)
 >>
 >> - **Cloud**: GCP(Google Cloud Platform) - Kubernetes Engine
 >>
