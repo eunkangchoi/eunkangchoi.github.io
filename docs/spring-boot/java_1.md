@@ -150,20 +150,47 @@ jre는 여러개 설치가 가능하며, 설치된 jre가 여러개일 때 하�
 
 <br><br>
 
-마찬가지로 **클래스 이름을 설정할 때는 반드시 영어로 해야하며, camel case 로 합니다**.
+마찬가지로 **클래스 이름을 설정할 때는 반드시 영어로 해야하며, pascal case 로 합니다**.
 
 즉 클래스이름을 HelloWorld, ClassName, MyTodoList 과 같은 형식으로 해야합니다.
 
-- camel case : 'CamelCase' 와 같이 맨앞에 대문자 로 해야합니다.
+- pascal case : 'PascalCase' 와 같이 맨앞에 대문자 로 해야합니다.
+
+
+- camel case : 'camelCase' 와 같이 맨앞에 소문자이며, 대문자로 음절을 구분하여 연결합니다.
+
+
+- snake case : 'snake_case' 와 같이 소문자이며 `_` 로 음절을 구분지어 연결합니다.
+
+
+- kebab case : 'kebab-case' 와 같이 소문자이며 `-` 로 음절을 구분지어 연결합니다.
 
 <br><br>
 
 Main() 함수는 함수를 구동하기 위한 함수 입니다.
 
-웹서버에서 자바를 실행하기 때문에 Main()이 반드시 필요한 경우는 아닙니다. 
+웹서버에서 자바를 실행하기 때문에 Main()이 반드시 필요한 경우는 아닙니다.
+
+이클립스내에서 실행을 시키려면 Main() 함수가 필요합니다. 
 
 패키지 명을 'study.java.basic.chapter01' 를 설정하면 HelloWorld.java 클래스 파일은
 
 `Chapter > src > study > java > basic > chapter01` 에 저장되어 있습니다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FWJyuq%2FbtrIO2gZ56G%2Fd1DvUF9CK7QW5NH9z4o5G0%2Fimg.png)
+
+<br>
+
+자바파일을 Run을 하면, JVM 으로 인해서 컴파일을 하는데
+
+컴파일은 프로그래밍 언어를 기계어로 번역시키는 과정입니다.
+
+컴파일된 파일은 `프로젝트명(Chapter1)/bin` 에 존재합니다.
+
+
+컴파일된 파일도 패키지로 묶여있기 때문에
+
+`Chapter > bin > study > java > basic > chapter01` 에 `HelloWorld.class` 파일이 저장되어 있습니다.
+
+
+![]({{ site.photo | absolute_url }}/spring-boot/java_1/java_1_1.png )
