@@ -19,7 +19,7 @@ Just the Docs gives your documentation a jumpstart with a responsive Jekyll them
 ## Getting started
 
 <ul>
-  {% for post in site.docs %}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
