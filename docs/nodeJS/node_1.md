@@ -4,6 +4,8 @@ title: Node.JS 시작하기
 parent: Node.JS
 tags:
     - Node.js
+
+comments: true
 ---
 
 작성완료

@@ -2,6 +2,7 @@
 layout: default
 title: module 과 require
 parent: Node.JS
+comments: true
 ---
 
 작성완료
