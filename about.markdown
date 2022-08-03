@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 permalink: /about/
+nav_order: 2
 ---
 
 # 안녕하세요. 주니어 백엔드 개발자 **최은강** 입니다.

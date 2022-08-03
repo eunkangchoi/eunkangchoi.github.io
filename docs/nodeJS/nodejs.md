@@ -3,7 +3,7 @@ layout: default
 title: Node.JS
 has_children: true
 permalink: /docs/nodeJS
-nav_order: 4
+nav_order: 5
 ---
 
 # Node.JS
