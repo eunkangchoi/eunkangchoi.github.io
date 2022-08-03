@@ -9,33 +9,6 @@ tags:
     - 패스트캠퍼스 국비교육
 ---
 
-\[ Java 공부 1 주차 \]
-
-현재 패스트캠퍼스에서 주최하는 내일배움카드로 수강을 할 수 있는 국비 온라인 교육 **"Java & SpringBoot 로 시작하는 웹프로그래밍"** 을 수강하고 있으며 "**끝까지 열공챌린지**" 이벤트를 위한 글입니다.
-
-해시태그: #패스트캠퍼스 #내일배움카드 #국비지원 #K디지털기초역량훈련 #바이트디그리 #Java&SpringBoot 로 시작하는 웹프로그래밍
-
----
-
-### **환경 설치**
-
-#### 1\. JDK 설치 - Java SE Development Kit
-
--   필자 OS 환경: **MacOS** / **Intel 칩**
--   설치링크: [https://www.oracle.com/java/technologies/downloads/#jdk18-mac](https://www.oracle.com/java/technologies/downloads/#jdk18-mac)
--   설치항목: `x64 DMG Installer`
-
-<br>
-
-#### 2\. Eclipse 설치
-
--   Download from: Korea, Republic Of - Kakao Corp. (https)
--   File: eclipse-inst-jre-mac64.dmg
--   설치링크: [https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg)
-
----
-
-
 ### **환경 설치**
 
 
