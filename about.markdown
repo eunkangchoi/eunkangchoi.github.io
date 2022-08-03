@@ -7,7 +7,7 @@ permalink: /about/
 # 안녕하세요. 주니어 백엔드 개발자 **최은강** 입니다.
 {: .no_toc }
 
-![]( {{ site.photo | absolute_url }}/about/cek.jpeg){:width="200px" height="400px" .mt-3 }
+![]( {{ site.photo | absolute_url }}/about/cek_emoji.jpg){:width="200px" height="200px" .mt-3 }
 {: .d-flex .flex-justify-around .mb-2}
 
 <br><b>"낙숫물도 끊임없이 떨어지면 바위도 뚫는다"</b> 라는 신념을 갖고 더 나은 개발자가 되기 위해 꾸준히 노력하고 있습니다.<br><b>"우물안 개구리가 되지말자"</b> 라는 마인드로 항상 겸손함을 갖고 개발에 임하고 있습니다.
