@@ -17,7 +17,7 @@ permalink: /about/
 ### Contacts
 {: .no_toc}
 
-- :email: dmsrkd1216@gmail.com
+- :email: <dmsrkd1216@gmail.com>
 - :link: [LinkedIn](https://www.linkedin.com/in/%EC%9D%80%EA%B0%95-%EC%B5%9C-8b0378191/)
 - :pencil: [Tistory Blog](https://ek12mv2.tistory.com/)
 
