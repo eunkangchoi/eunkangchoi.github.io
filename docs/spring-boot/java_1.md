@@ -31,7 +31,7 @@ tags:
 
 -   Download from: Korea, Republic Of - Kakao Corp. (https)
 -   File: eclipse-inst-jre-mac64.dmg
--   설치링크
+-   설치링크: [https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2022-06/R/eclipse-inst-jre-mac64.dmg)
 
 ---
 
@@ -157,9 +157,9 @@ jre는 여러개 설치가 가능하며, 설치된 jre가 여러개일 때 하�
 
 <br><br>
 
-실제 파일탐색기에서 `(default package)` 에 저장된 HelloDefaultPackage.java 파일이 저장된 위치는
+실제 파일탐색기에서 **`(default package)`** 에 저장된 HelloDefaultPackage.java 파일이 저장된 위치는
 
-Chapter1(프로젝트이름)/src 에 저장되어 있음을 알 수 있습니다.
+`Chapter1(프로젝트이름)/src` 에 저장되어 있음을 알 수 있습니다.
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbWD24e%2FbtrINuE75PQ%2FRIyJ9PM644TM5UPe0WZNVK%2Fimg.png)
 
