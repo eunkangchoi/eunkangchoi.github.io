@@ -44,7 +44,7 @@ btn.className = "btn btn2"
 
 ## classList
 
-- ` ` 공백문자를 기준으로 분리된 여러개의 클래스 요소들의 집합이자, 동적인 DomTokenList 를 리턴합니다.
+- 공백문자를 기준으로 분리된 여러개의 클래스 요소들의 집합이자, 동적인 DomTokenList 를 리턴합니다.
 
 ```js
 <button class="btn btn2">sample Btn</button>
