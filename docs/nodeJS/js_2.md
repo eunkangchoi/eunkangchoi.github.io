@@ -3,7 +3,7 @@ layout: default
 title: (JS) className vs classList
 parent: Node.JS
 tags:
-    - Javascript
+    - javascript
     - className
     - classList
 
@@ -12,6 +12,8 @@ comments: true
 
 작성완료
 {: .label .label-green }
+
+## [Javascript] className 과 classList 
 
 ---
 

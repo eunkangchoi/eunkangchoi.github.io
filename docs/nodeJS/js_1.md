@@ -1,6 +1,6 @@
 ---
 layout: default
-title: (JS)
+title: (JS) window vs document
 parent: Node.JS
 tags:
     - javascript
@@ -12,6 +12,8 @@ comments: true
 
 작성완료
 {: .label .label-green }
+
+## [JavaScript] window 와 document 차이점
 
 ---
 
