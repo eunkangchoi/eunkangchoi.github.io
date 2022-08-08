@@ -10,8 +10,8 @@ tags:
 comments: true
 ---
 
-아직작성중
-{: .label .label-yellow }
+작성완료
+{: .label .label-green }
 
 
 ## Table of contents
