@@ -57,7 +57,7 @@ age = 21;
 |native|new|null|package|private|protected|
 |public|return|short|static|strictfp|super|
 |switch|synchronized|this|throw|throws|transient|
-|true|try|void|volatile|while||
+|true|try|void|volatile|while|yield|
 
 
 > - camelCase를 사용하여 변수명을 만들고, 이 변수가 *어떤 기능을 나타내는지를 짐작할 수 있도록* (변수명이 길더라도) 가독성 좋게 하는 게 좋습니다. (예: numberOfProducts )
