@@ -1,6 +1,6 @@
 ---
 layout: default
-title: spring-boot
+title: Java 와 Spring-Boot
 nav_order: 6
 has_children: true
 permalink: /docs/spring-boot
