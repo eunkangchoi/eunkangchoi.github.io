@@ -1,7 +1,7 @@
 ---
 layout: default
 title: (Java) Java 설치 & Eclipse IDE 설치 & Java 프로그래밍 시작
-parent: spring-boot
+parent: Java 와 Spring-Boot
 tags:
     - java
     - eclipse

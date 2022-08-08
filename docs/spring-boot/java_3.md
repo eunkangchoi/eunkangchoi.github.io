@@ -1,7 +1,7 @@
 ---
 layout: default
 title: (Java) 변수와 자료형
-parent: spring-boot
+parent: Java 와 Spring-Boot
 tags:
     - java
     - 변수

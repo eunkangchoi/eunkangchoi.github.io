@@ -1,7 +1,7 @@
 ---
 layout: default
-title: (Java) Java 14.ver 에서만 사용되는 조건문과 반복문
-parent: spring-boot
+title: (Java) Java 14.ver 에서만 지원되는 코드 표현
+parent: Java 와 Spring-Boot
 tags:
     - java
     - java 14
@@ -22,5 +22,9 @@ comments: true
 
 ---
 
-<br>
+## Java 14부터 지원되는 Switch Expression
 
+
+
+### 기본 switch-case
+{: no_toc}

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: (Java) 객체지향 프로그래밍 이란
-parent: spring-boot
+parent: Java 와 Spring-Boot
 tags:
     - java
     - OOP
