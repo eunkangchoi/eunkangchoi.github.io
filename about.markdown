@@ -145,6 +145,11 @@ What Did I Do?
 # Educations
 {: .text-delta}
 
+## NomadCoders 수료
+
+- [Vanilla JS 2주완성반 27기 수료 (2022.08.01 ~ 2022.08.15)](https://nomadcoders.co/certs/45634687-335c-442e-8d26-ffbcee21c174)
+
+
 ## KH 정보교육원 수료
 
 - 수료기간: 2020.05 - 2020.12
