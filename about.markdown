@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /about/
+permalink: /about
 nav_order: 2
 ---
 
@@ -11,8 +11,13 @@ nav_order: 2
 ![]( {{ site.photo | absolute_url }}/about/cek_emoji.jpg){:width="200px" height="200px" .mt-3 }
 {: .d-flex .flex-justify-around .mb-2}
 
-<br><b>"낙숫물도 끊임없이 떨어지면 바위도 뚫는다"</b> 라는 신념을 갖고 더 나은 개발자가 되기 위해 꾸준히 노력하고 있습니다.<br><b>"우물안 개구리가 되지말자"</b> 라는 마인드로 항상 겸손함을 갖고 개발에 임하고 있습니다.
-{: .fs-4 .flex-justify-between}
+
+<br>
+<h4>연봉 보다는 <b>성장</b> / 안정 보다는 <b>도전</b> / 기억 보다는 <b>기록</b> / 혼자 보다는 <b>같이</b></h4>
+<br><b>"낙숫물도 끊임없이 떨어지면 바위도 뚫는다"</b> 라는 신념을 갖고 더 나은 개발자가 되기 위해 꾸준히 노력하고 있습니다.<br><b>"우물안 개구리가 되지말자"</b> 라는 마인드로 항상 초심을 잃지 않고 겸손함을 갖고 개발에 임하고 있습니다.<br>
+
+
+<br>
 
 
 ### Contacts
@@ -29,7 +34,10 @@ nav_order: 2
 
 **스포츠** : 수영, 요가, 자전거, 스키
 
-**취미** : 웹툰보기, 독서, 신문읽기
+**취미** : 웹툰보기, 독서, 신문읽기, 개발 블로그 포스팅
+
+
+
 
 <br>
 
@@ -77,7 +85,14 @@ Backend Developer
 >> - **Messaging Queue Service**: Pub/Sub
 >>
 >> - **Etc** : gRPC, protobuff, Socket.io
+>
+> 주요업무
+>> - Swit 웹서비스 및 모바일을 위한 API 개발
+>> - 실시간 메시징, 알람, 업무협업을 위한 각종 기능 개발 및 Open API 지원
+>> - Swit 시스템 운영과 버그픽스 및 성능 개선
+>> - OAuth2.0, Access Token 기반의 Open API 활용한 개발
 {: .fs-3 }
+
 
 <br><br>
 
@@ -142,12 +157,19 @@ What Did I Do?
 
 ---
 
+# Associations
+{: .text-delta}
+
+---
+
 # Educations
 {: .text-delta}
 
 ## NomadCoders 수료
 
 - [Vanilla JS 2주완성반 27기 수료 (2022.08.01 ~ 2022.08.15)](https://nomadcoders.co/certs/45634687-335c-442e-8d26-ffbcee21c174)
+
+- [Youtube Clone Coding (진행중)]()
 
 
 ## KH 정보교육원 수료

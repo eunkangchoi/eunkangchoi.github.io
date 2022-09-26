@@ -16,11 +16,11 @@
 title: Slow and Steady Eun-Kang
 description: 안녕하세요. 백엔드 개발자 최은강의 블로그에 오신걸 환영합니다!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eunkangchoi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://eunkangchoi.github.io/about" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/", 
+, "docs/", "index.md" 
 ]
 
 # Regression tests
@@ -124,7 +124,7 @@ compress_html:
   # ignore:
   #   envs: all
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc2
 repository: eunkangchoi/eunkangchoi.github.io
 
 photo: assets/images
