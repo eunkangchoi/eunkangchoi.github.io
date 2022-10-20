@@ -176,6 +176,7 @@ What Did I Do?
     - FE: 권지영, 오일교
     - BE: 문경민, **최은강**
 - 사용기술스택(BE): NodeJs, Express.js, Prisma, Planet Scale
+- [Team Bouillon 의 Notion Workspace](https://www.notion.so/ek12mv2/Bouillon-Notion-Workspace-999aed7e212645c99043a3ef88870b01)
 
 <br>
 
@@ -189,7 +190,7 @@ What Did I Do?
 >> 처음 본 직장인 동료들과 의견맞춰서 co-working 하기
 >
 
-
+<br>
 
 
 ---
