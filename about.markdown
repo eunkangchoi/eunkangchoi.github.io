@@ -36,10 +36,18 @@ nav_order: 2
 
 **취미** : 웹툰보기, 독서, 신문읽기, 개발 블로그 포스팅
 
-
-
-
 <br>
+
+### Interested Techs
+{: .no_toc .mb-3}
+
+- Environments & Languages: **NodeJS**, **Javascript**, **Typescript**
+- Frameworks: **Express.js**, **Nest.js**
+- Databases: **MySQL**, **Redis**, **MongoDB**
+- Clouds:  **AWS**, **GCP**
+- CI & CD:  **Docker**, **Kubernetes**
+- Etcs: gRPC , WebSocket, REST API, GraphQL
+
 
 ---
 
@@ -160,17 +168,52 @@ What Did I Do?
 # Associations
 {: .text-delta}
 
+## Team Bouillon  (진행중)
+
+- 프론트 + 백엔드 사이드 프로젝트
+- 기간: 2022.10.11 ~ 
+- 인원: 4명
+    - FE: 권지영, 오일교
+    - BE: 문경민, **최은강**
+- 사용기술스택(BE): NodeJs, Express.js, Prisma, Planet Scale
+
+<br>
+
+### 원티드(wanted) 클론코딩
+{: .no_toc}
+
+> 기간: 2022.10.11 ~ 2022.11.22(예정)
+>
+> 진행 목표 
+>> 활용기술 스택에 익숙해지기
+>> 처음 본 직장인 동료들과 의견맞춰서 co-working 하기
+>
+
+
+
+
 ---
 
 # Educations
 {: .text-delta}
 
-## NomadCoders 수료
+## 원티드 프리온보딩 백엔드코스 (진행중)
+
+- 기간: 2022.10.24 ~ 2022.11.28
+- Tech Stack: **Node.js**, **Typescript**, **Nest.js**
+
+<br>
+
+## NomadCoders 온라인교육
+
+- [2주안에 Typescript 뽀개기 (진행중) ]()
 
 - [Vanilla JS 2주완성반 27기 수료 (2022.08.01 ~ 2022.08.15)](https://nomadcoders.co/certs/45634687-335c-442e-8d26-ffbcee21c174)
 
 - [Youtube Clone Coding (진행중)]()
 
+
+<br>
 
 ## KH 정보교육원 수료
 
@@ -190,6 +233,7 @@ What Did I Do?
 
 - [오늘은 뭐먹지](https://www.notion.so/ek12mv2/c87702bb94ad4a7595eebc0b6ad5ed35)
 
+<br>
 
 ## 상명대학교(제2캠퍼스) 졸업
 
@@ -213,6 +257,3 @@ What Did I Do?
 ## Awards
 
 - 대한전기학회 여성 캡스톤 경진대회 우수상 (2017.10)
-
-
-
