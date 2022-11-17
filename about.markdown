@@ -69,7 +69,7 @@ nav_order: 2
 
 
 {: .no_toc}
-### [1. 원티드 프리온보딩 선발과제](https://github.com/loveAlakazam/wanted-pre-onboarding-backend-2022-10)
+### [1. 원티드 프리온보딩 선발과제 - 직](https://github.com/loveAlakazam/wanted-pre-onboarding-backend-2022-10)
 
 - 개인작업(1인)
 - 활용기술스택
@@ -82,7 +82,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [2. 회원 등급에 따른 게시판 서비스와 통계서비스](https://github.com/loveAlakazam/1_statistics) 
+### [2. 회원 등급에 따른 게시판 서비스와 통계 RESTful 웹서비스](https://github.com/loveAlakazam/1_statistics) 
 
 - 팀작업 (4인)
 - 활용 기술스택
@@ -108,7 +108,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [3. 해외 배송 쇼핑몰 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+### [3. 해외 배송 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/3_Posts) 
 
 - 팀작업 (4인)
 - 활용 기술스택
@@ -163,7 +163,7 @@ nav_order: 2
 
 
 {: .no_toc}
-### [4. 비밀글 기능이 포함된 게시판 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+### [4. 비밀글 기능이 포함된 게시판 Restful 웹서비스](https://github.com/loveAlakazam/3_Posts) 
 
 - 개인작업(1인)
 - 활용기술 스택
@@ -188,7 +188,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [5. MongoDB를 활용한 벤치마킹 쇼핑몰 웹서비스](https://github.com/loveAlakazam/4_MarketService) 
+### [5. MongoDB를 활용한 벤치마킹 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/4_MarketService) 
 
 - 개인작업(1인)
 - 활용기술 스택
