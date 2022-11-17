@@ -77,7 +77,7 @@ nav_order: 2
     - Framework: ExpressJS
     - Language: TypeScript
     - Database: MySQL
-    
+- 진행기간:     
 
 <br>
 
@@ -94,8 +94,10 @@ nav_order: 2
     - Etc: Github Action & Workflow
 
 - 담당역할
-    - 게시글 수정 API 작성
-    - 금일 접속자 연령별 조회
+    - [PUT] 게시글 수정 API 작성
+    - [GET] 금일 접속자 연령별 조회
+
+- 진행기간: 2022.10.26 ~ 2022.10.31
 
 - 블로그 포스팅
     - [AWS RDS 인스턴스 만들기 & NestJS 에 AWS RDS 연결하기](https://ek12mv2.tistory.com/303)
@@ -136,7 +138,9 @@ nav_order: 2
     - Github Action & Workflow 세팅
         - 이슈 생성시 자동으로 브랜치 생성
         - develop/feature 브랜치에서 푸시할 때, Node.JS 자동 빌드 워크플로우 생성
-        
+
+- 진행기간: 2022.10.31 ~ 2022.11.06        
+
 - 블로그 포스팅
     - [쿠폰모듈 어떻게 개발할지 고민했던 흔적](https://ek12mv2.tistory.com/313)
     - [Type number trivaially inferred from a number literal, remove type annotation 에러 해결하기](https://ek12mv2.tistory.com/315)
@@ -172,8 +176,8 @@ nav_order: 2
     - Etc
         - Github Action & Workflow
 
-
 - 진행 기간: 2022.11.04 ~ 2022.11.07
+
 - 블로그 포스팅
     - [Jest를 이용한 테스트 환경만들기](https://ek12mv2.tistory.com/325)
     - [Joi를 validation schema를 사용해보기](https://ek12mv2.tistory.com/342)
@@ -202,7 +206,9 @@ nav_order: 2
     - Etc
         - Mongoose
         - Github Action & Workflow
+
 - 진행기간: 2022.11.07 ~ 2022.11.17
+
 - 블로그 포스팅
     - [나만의 Custom Error Exception 와 Custom Exception Filter 만들기 (feat: NestJS 다큐먼트 읽기)](https://ek12mv2.tistory.com/331)
     - [서비스 로직에서 db를 호출하지 말고, Repository 레이어를 추가하기 ](https://ek12mv2.tistory.com/339)
@@ -222,7 +228,7 @@ nav_order: 2
     - Environment: NodeJS
     - Language: TypeScript
     - Framework: NestJS
-    - Database: AWS RDS (MySQL 8.0)
+    - Database: AWS RDS (MySQL 8.0), Redis
     - ORM: TypeORM
     - Test: Jest
     - Etc
@@ -231,7 +237,7 @@ nav_order: 2
 
 <br>
 
-[7. 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
+[7. gRPC + NestJS 를 활용한 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
 
 
 <br>
