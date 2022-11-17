@@ -15,6 +15,7 @@ nav_order: 2
 <br>
 <h4>연봉 보다는 <b>성장</b> / 안정 보다는 <b>도전</b> / 기억 보다는 <b>기록</b> / 혼자 보다는 <b>같이</b></h4>
 <br><b>"낙숫물도 끊임없이 떨어지면 바위도 뚫는다"</b> 라는 신념을 갖고 더 나은 개발자가 되기 위해 꾸준히 노력하고 있습니다.<br><b>"우물안 개구리가 되지말자"</b> 라는 마인드로 항상 초심을 잃지 않고 겸손함을 갖고 개발에 임하고 있습니다.<br>
+<br>개발하면서 겪은 고민사항과 그 고민에 대한 해결과정을 블로그에 기록하고 스스로 배우고, 스스로 문제를 해결하여 공유하는 것을 목표로 하고있습니다.<br>
 
 
 <br>
@@ -57,6 +58,183 @@ nav_order: 2
 1. TOC
 {:toc}
 
+
+---
+
+## NodeJS Project Experiences
+
+## 원티드 프리온보딩 5기
+
+<small>[✨ TIP ] 아래 링크를 클릭하면 래포지토리로 이동할 수 있습니다!</small>
+
+
+{: .no_toc}
+### [1. 원티드 프리온보딩 선발과제](https://github.com/loveAlakazam/wanted-pre-onboarding-backend-2022-10)
+
+- 개인작업(1인)
+- 활용기술스택
+    - Environment: NodeJS
+    - Framework: ExpressJS
+    - Language: TypeScript
+    - Database: MySQL
+    
+
+<br>
+
+{: .no_toc}
+### [2. 회원 등급에 따른 게시판 서비스와 통계서비스](https://github.com/loveAlakazam/1_statistics) 
+
+- 팀작업 (4인)
+- 활용 기술스택
+    - Environment: NodeJS
+    - Language: TypeScript
+    - Framework: NestJS
+    - Database: AWS RDS (MySQL 8.0)
+    - ORM: TypeORM
+    - Etc: Github Action & Workflow
+
+- 담당역할
+    - 게시글 수정 API 작성
+    - 금일 접속자 연령별 조회
+
+- 블로그 포스팅
+    - [AWS RDS 인스턴스 만들기 & NestJS 에 AWS RDS 연결하기](https://ek12mv2.tistory.com/303)
+    - [Type ORM Group by 로직 짜다가 발생한 에러 해결하기 + 팀원 코드리뷰](https://ek12mv2.tistory.com/310)
+        
+
+
+<br>
+
+{: .no_toc}
+### [3. 해외 배송 쇼핑몰 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+
+- 팀작업 (4인)
+- 활용 기술스택
+    - Environment: NodeJS
+    - Language: TypeScript
+    - Framework: NestJS
+    - Database: AWS RDS (MySQL 8.0)
+    - ORM: TypeORM
+    - Etc: Github Action & Workflow
+
+
+- 담당역할
+    - 쿠폰 API 담당
+        - 운영자만 사용가능 쿠폰 API
+            - [POST] 쿠폰생성
+            - [GET] 모든 쿠폰 목록 조회 및 검색
+            - [GET] 사용자 id를 검색하면, 사용자가 보유한 모든 쿠폰 조회 (기간 지난 쿠폰도 포함)
+            
+        - 일반유저만 사용가능 쿠폰 API
+            - [GET] 사용가능한 보유 쿠폰 조회 & 쿠폰 타입별로 보유쿠폰 검색
+            - [POST] 운영자가 생성한 쿠폰을 받아서 보유 쿠폰으로 등록
+            - [PATCH] 보유쿠폰 기간 연장
+            - [PATCH] 보유쿠폰 사용
+            - [PATCH] 주문취소시 사용했던 보유쿠폰 다시 사용가능한 보유쿠폰으로 복원
+        - (고도화 예정) Scheduler와 axios를 이용하여 달러환율 구하기
+
+    - Github Action & Workflow 세팅
+        - 이슈 생성시 자동으로 브랜치 생성
+        - develop/feature 브랜치에서 푸시할 때, Node.JS 자동 빌드 워크플로우 생성
+        
+- 블로그 포스팅
+    - [쿠폰모듈 어떻게 개발할지 고민했던 흔적](https://ek12mv2.tistory.com/313)
+    - [Type number trivaially inferred from a number literal, remove type annotation 에러 해결하기](https://ek12mv2.tistory.com/315)
+    - [Git Rebase](https://ek12mv2.tistory.com/307)
+    - [npm ci 명령어로 협업중 package-lock.json 패키기 동기화 시키기](https://ek12mv2.tistory.com/308)
+    - [날짜 데이터 insert 하기](https://ek12mv2.tistory.com/316)
+
+<br>
+
+```md  
+[팀과제 후기]
+
+팀원의 코드리뷰 너무 좋았습니다! 
+배울점이 많고 실력좋은 동료들과 같이 고민하고, 피드백 받고 개발관련 이야기했던게 너무 아련한 추억이 됐네요...ㅎㅎ
+개인적인 생각이지만, 솔직히 개인과제비중보다는 팀과제의 비중을 늘렸으면 좋겠어요 🥹
+팀과제를 같이하면서 팀원들의 코드를 보는 것마저도 NestJS를 몰랐던 저에겐 너무 도움됐어요..!
+```
+
+<br>
+
+
+{: .no_toc}
+### [4. 비밀글 기능이 포함된 게시판 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+
+- 개인작업(1인)
+- 활용기술 스택
+    - Environment: NodeJS
+    - Language: TypeScript
+    - Framework: NestJS
+    - Database: AWS RDS (MySQL 8.0)
+    - ORM: TypeORM
+    - Test: Jest
+    - Etc
+        - Github Action & Workflow
+
+
+- 진행 기간: 2022.11.04 ~ 2022.11.07
+- 블로그 포스팅
+    - [Jest를 이용한 테스트 환경만들기](https://ek12mv2.tistory.com/325)
+    - [Joi를 validation schema를 사용해보기](https://ek12mv2.tistory.com/342)
+    - [스키마중 소수넘버 컬럼 정의하기](https://ek12mv2.tistory.com/322)
+    - [정규표현식에 맞는 데이터인지 확인하는 방법 & 선택적으로 입력데이터를 받기: class-validator 활용하기 ](https://ek12mv2.tistory.com/323)
+    - [raw query에서는 take()와 limit()이 적용안되는 오류 해결하여 pagination 구현하기](https://ek12mv2.tistory.com/329)
+
+<br>
+
+{: .no_toc}
+### [5. MongoDB를 활용한 벤치마킹 쇼핑몰 웹서비스](https://github.com/loveAlakazam/4_MarketService) 
+
+- 개인작업(1인)
+- 활용기술 스택
+    - Environment: NodeJS
+    - Language: TypeScript
+    - Framework: NestJS
+    - Database: MongoDB (MongoDB Atlas 5.0.13)
+    - Test: Jest
+        - [유저 controller unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/users/test/users.controller.spec.ts)
+        - [유저 service unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/users/test/users.service.spec.ts)
+        - [상품 controller unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/products/test/products.controller.spec.ts)
+        - [상품 service unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/products/test/products.service.spec.ts)
+        - [마켓 controller unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/markets/test/markets.controller.spec.ts)
+        - [마켓 service unit test case](https://github.com/loveAlakazam/4_MarketService/blob/develop/src/markets/test/markets.service.spec.ts)
+    - Etc
+        - Mongoose
+        - Github Action & Workflow
+- 진행기간: 2022.11.07 ~ 2022.11.17
+- 블로그 포스팅
+    - [나만의 Custom Error Exception 와 Custom Exception Filter 만들기 (feat: NestJS 다큐먼트 읽기)](https://ek12mv2.tistory.com/331)
+    - [서비스 로직에서 db를 호출하지 말고, Repository 레이어를 추가하기 ](https://ek12mv2.tistory.com/339)
+    - [NestJS framework에 MongoDB 연결하기](https://ek12mv2.tistory.com/333)
+    - [Guard가 있는 컨트롤러 유닛 테스트하기 - 유저 controller 테스트](https://ek12mv2.tistory.com/343)
+    - [Cast to date failed for value "[Function:now]" 에러 해결 - Soft Delete 구현하기](https://ek12mv2.tistory.com/344)
+    - [MongoDB populate() 사용해보기](https://ek12mv2.tistory.com/345)
+    - [MongoDB $cond, $exists, $nin, $gt 옵션들을 활용하여 쿼리문 만들기 : 판매자가 올린 다른 상품들 데이터 구하기 ](https://ek12mv2.tistory.com/347)
+    - [MongoDB aggregation 활용하여 마켓리스트 나타내기](https://ek12mv2.tistory.com/348)
+
+<br>
+
+[6. Boss Raid 미니 게임 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
+
+- 개인작업(1인)
+- 활용기술 스택
+    - Environment: NodeJS
+    - Language: TypeScript
+    - Framework: NestJS
+    - Database: AWS RDS (MySQL 8.0)
+    - ORM: TypeORM
+    - Test: Jest
+    - Etc
+        - Github Action & Workflow
+
+
+<br>
+
+[7. 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
+
+
+<br>
 
 ---
 
@@ -198,16 +376,24 @@ What Did I Do?
 # Educations
 {: .text-delta}
 
-## 원티드 프리온보딩 백엔드코스 (진행중)
+## 원티드 프리온보딩 백엔드코스
 
-- 기간: 2022.10.24 ~ 2022.11.28
-- Tech Stack: **Node.js**, **Typescript**, **Nest.js**
+> 기간: 2022.10.24 ~ 2022.11.28
+>
+> Tech Stack: **Node.js**, **Typescript**, **Nest.js**
+>
+> 2차례의 팀과제와 2차례의 개인과제 진행
+
+
+
 
 <br>
 
-## NomadCoders 온라인교육
+## NomadCoders 온라인교육 수강
 
-- [2주안에 Typescript 뽀개기 (진행중) ]()
+- [2주안에 Typescript 뽀개기 (2022.10.17 ~2022.11.07) ](https://nomadcoders.co/certs/90261e39-b762-47d0-bf29-8f7e29390744)
+
+- [NestJS로 API 만들기(2022.10.06 ~ 2022.10.07)](https://nomadcoders.co/certs/e483b317-1562-4f5b-bb27-fd4c85d7a3db)
 
 - [Vanilla JS 2주완성반 27기 수료 (2022.08.01 ~ 2022.08.15)](https://nomadcoders.co/certs/45634687-335c-442e-8d26-ffbcee21c174)
 
