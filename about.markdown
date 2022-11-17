@@ -108,7 +108,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [3. 해외 배송 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+### [3. 해외 배송 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/2_shopping_mall_management) 
 
 - 팀작업 (4인)
 - 활용 기술스택
