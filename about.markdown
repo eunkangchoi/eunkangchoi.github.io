@@ -69,7 +69,7 @@ nav_order: 2
 
 
 {: .no_toc}
-### [1. 원티드 프리온보딩 선발과제 - 직](https://github.com/loveAlakazam/wanted-pre-onboarding-backend-2022-10)
+### [1. 원티드 프리온보딩 선발과제 - 채용을 위한 웹서비스 Restful API](https://github.com/loveAlakazam/wanted-pre-onboarding-backend-2022-10)
 
 - 개인작업(1인)
 - 활용기술스택
