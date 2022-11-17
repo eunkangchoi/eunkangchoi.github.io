@@ -77,7 +77,7 @@ nav_order: 2
     - Framework: ExpressJS
     - Language: TypeScript
     - Database: MySQL
-- 진행기간:     
+- 진행기간: 2022.10.16 ~ 2022.10.19    
 
 <br>
 
@@ -133,7 +133,7 @@ nav_order: 2
             - [PATCH] 보유쿠폰 기간 연장
             - [PATCH] 보유쿠폰 사용
             - [PATCH] 주문취소시 사용했던 보유쿠폰 다시 사용가능한 보유쿠폰으로 복원
-        - (고도화 예정) Scheduler와 axios를 이용하여 달러환율 구하기
+        - ( [:: TODO 👊 ::] 고도화 예정) Scheduler와 axios를 이용하여 달러환율 구하기
 
     - Github Action & Workflow 세팅
         - 이슈 생성시 자동으로 브랜치 생성
@@ -221,7 +221,7 @@ nav_order: 2
 
 <br>
 
-[6. Boss Raid 미니 게임 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
+[6. [:: TODO 👊 ::] Boss Raid 미니 게임 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
 
 - 개인작업(1인)
 - 활용기술 스택
@@ -237,7 +237,7 @@ nav_order: 2
 
 <br>
 
-[7. gRPC + NestJS 를 활용한 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
+[7. [:: TODO 👊 ::] gRPC + NestJS 를 활용한 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
 
 
 <br>
