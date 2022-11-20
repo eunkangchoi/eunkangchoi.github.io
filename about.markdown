@@ -82,7 +82,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [2. 회원 등급에 따른 게시판 서비스와 통계 RESTful 웹서비스](https://github.com/loveAlakazam/1_statistics) 
+### [2. 회원 등급에 따른 게시판 서비스와 통계 Restful API 웹서비스](https://github.com/loveAlakazam/1_statistics) 
 
 - 팀작업 (4인)
 - 활용 기술스택
@@ -108,7 +108,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [3. 해외 배송 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/2_shopping_mall_management) 
+### [3. 해외 배송 쇼핑몰 Restful API 웹서비스](https://github.com/loveAlakazam/2_shopping_mall_management) 
 
 - 팀작업 (4인)
 - 활용 기술스택
@@ -163,7 +163,7 @@ nav_order: 2
 
 
 {: .no_toc}
-### [4. 비밀글 기능이 포함된 게시판 Restful 웹서비스](https://github.com/loveAlakazam/3_Posts) 
+### [4. 비밀글 기능이 포함된 게시판 Restful API 웹서비스](https://github.com/loveAlakazam/3_Posts) 
 
 - 개인작업(1인)
 - 활용기술 스택
@@ -181,6 +181,7 @@ nav_order: 2
 - 블로그 포스팅
     - [Jest를 이용한 테스트 환경만들기](https://ek12mv2.tistory.com/325)
     - [Joi를 validation schema를 사용해보기](https://ek12mv2.tistory.com/342)
+    - [MongoDB+NestJS+Mongoose - 콜렉션의 외래키 컬럼 설정하는 방법](https://ek12mv2.tistory.com/336)
     - [스키마중 소수넘버 컬럼 정의하기](https://ek12mv2.tistory.com/322)
     - [정규표현식에 맞는 데이터인지 확인하는 방법 & 선택적으로 입력데이터를 받기: class-validator 활용하기 ](https://ek12mv2.tistory.com/323)
     - [raw query에서는 take()와 limit()이 적용안되는 오류 해결하여 pagination 구현하기](https://ek12mv2.tistory.com/329)
@@ -188,7 +189,7 @@ nav_order: 2
 <br>
 
 {: .no_toc}
-### [5. MongoDB를 활용한 벤치마킹 쇼핑몰 Restful 웹서비스](https://github.com/loveAlakazam/4_MarketService) 
+### [5. MongoDB를 활용한 벤치마킹 쇼핑몰 Restful API 웹서비스](https://github.com/loveAlakazam/4_MarketService) 
 
 - 개인작업(1인)
 - 활용기술 스택
@@ -215,7 +216,7 @@ nav_order: 2
 
 <br>
 
-[6. [:: TODO 👊 ::] Boss Raid 미니 게임 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
+[6. [:: TODO 👊 ::] Boss Raid 미니 게임 Restful API 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
 
 - 개인작업(1인)
 - 활용기술 스택
@@ -232,6 +233,11 @@ nav_order: 2
 <br>
 
 [7. [:: TODO 👊 ::] gRPC + NestJS 를 활용한 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
+
+<br>
+
+
+[8. [:: TODO 👊 ::] NestJS + GraphQL 을 활용한 나만의 가계부 만들기 Web 서비스(진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_AccountBooks)
 
 
 <br>
