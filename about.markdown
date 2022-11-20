@@ -181,7 +181,6 @@ nav_order: 2
 - 블로그 포스팅
     - [Jest를 이용한 테스트 환경만들기](https://ek12mv2.tistory.com/325)
     - [Joi를 validation schema를 사용해보기](https://ek12mv2.tistory.com/342)
-    - [MongoDB+NestJS+Mongoose - 콜렉션의 외래키 컬럼 설정하는 방법](https://ek12mv2.tistory.com/336)
     - [스키마중 소수넘버 컬럼 정의하기](https://ek12mv2.tistory.com/322)
     - [정규표현식에 맞는 데이터인지 확인하는 방법 & 선택적으로 입력데이터를 받기: class-validator 활용하기 ](https://ek12mv2.tistory.com/323)
     - [raw query에서는 take()와 limit()이 적용안되는 오류 해결하여 pagination 구현하기](https://ek12mv2.tistory.com/329)
@@ -208,6 +207,7 @@ nav_order: 2
     - [나만의 Custom Error Exception 와 Custom Exception Filter 만들기 (feat: NestJS 다큐먼트 읽기)](https://ek12mv2.tistory.com/331)
     - [서비스 로직에서 db를 호출하지 말고, Repository 레이어를 추가하기 ](https://ek12mv2.tistory.com/339)
     - [NestJS framework에 MongoDB 연결하기](https://ek12mv2.tistory.com/333)
+    - [MongoDB+NestJS+Mongoose - 콜렉션의 외래키 컬럼 설정하는 방법](https://ek12mv2.tistory.com/336)
     - [Guard가 있는 컨트롤러 유닛 테스트하기 - 유저 controller 테스트](https://ek12mv2.tistory.com/343)
     - [Cast to date failed for value "[Function:now]" 에러 해결 - Soft Delete 구현하기](https://ek12mv2.tistory.com/344)
     - [MongoDB populate() 사용해보기](https://ek12mv2.tistory.com/345)
