@@ -175,6 +175,7 @@ nav_order: 2
     - Test: Jest
     - Etc
         - Github Action & Workflow
+        - Axios & OpenAPI
 
 - 진행 기간: 2022.11.04 ~ 2022.11.07
 
@@ -184,6 +185,10 @@ nav_order: 2
     - [스키마중 소수넘버 컬럼 정의하기](https://ek12mv2.tistory.com/322)
     - [정규표현식에 맞는 데이터인지 확인하는 방법 & 선택적으로 입력데이터를 받기: class-validator 활용하기 ](https://ek12mv2.tistory.com/323)
     - [raw query에서는 take()와 limit()이 적용안되는 오류 해결하여 pagination 구현하기](https://ek12mv2.tistory.com/329)
+    - [(고도화) Axios를 활용하여 OpenAPI 로부터 현재 날씨 데이터를 파싱하기](https://ek12mv2.tistory.com/328)
+
+- 진행기간 이후에도 고도화 작업 내역
+    - Axios와 OpenAPI를 활용하여 게시글을 등록할 때 날씨데이터도 같이 등록할 수 있도록 변경했습니다.
 
 <br>
 
@@ -200,6 +205,7 @@ nav_order: 2
     - Etc
         - Mongoose
         - Github Action & Workflow
+        - Swagger
 
 - 진행기간: 2022.11.07 ~ 2022.11.17
 
@@ -213,6 +219,13 @@ nav_order: 2
     - [MongoDB populate() 사용해보기](https://ek12mv2.tistory.com/345)
     - [MongoDB $cond, $exists, $nin, $gt 옵션들을 활용하여 쿼리문 만들기 : 판매자가 올린 다른 상품들 데이터 구하기 ](https://ek12mv2.tistory.com/347)
     - [MongoDB aggregation 활용하여 마켓리스트 나타내기](https://ek12mv2.tistory.com/348)
+
+- 진행 기간 이후에도 고도화 작업 내역
+    - 회원탈퇴 기능 고도화
+        - 셀러회원이 탈퇴했을 경우 셀러회원이 등록한 상품데이터와 마켓데이터들도 모두 삭제처리되도록 변경했습니다.
+    - 셀러등록 기능 고도화
+        - 회원 모델에 `예금주명`, `은행`, `계좌번호` 컬럼을 추가하여 셀러의 계좌정보를 등록을 요청하도록 변경했습니다. 
+    - Swagger 적용하기
 
 <br>
 
