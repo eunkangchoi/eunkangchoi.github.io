@@ -365,30 +365,6 @@ What Did I Do?
 # Associations
 {: .text-delta}
 
-## Team Bouillon  (진행중)
-
-- 프론트 + 백엔드 사이드 프로젝트
-- 기간: 2022.10.11 ~ 
-- 인원: 4명
-    - FE: 권지영, 오일교
-    - BE: 문경민, **최은강**
-- 사용기술스택(BE): NodeJs, Express.js, Prisma, Planet Scale
-- [Team Bouillon 의 Notion Workspace](https://www.notion.so/ek12mv2/Bouillon-Notion-Workspace-999aed7e212645c99043a3ef88870b01)
-
-<br>
-
-### 원티드(wanted) 클론코딩
-{: .no_toc}
-
-> 기간: 2022.10.11 ~ 2022.11.22(예정)
->
-> 진행 목표 
->> 활용기술 스택에 익숙해지기
->> 처음 본 직장인 동료들과 의견맞춰서 co-working 하기
->
-
-<br>
-
 
 ---
 
