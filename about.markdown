@@ -111,6 +111,7 @@ nav_order: 2
 ### [3. 해외 배송 쇼핑몰 Restful API 웹서비스](https://github.com/loveAlakazam/2_shopping_mall_management) 
 
 - 팀작업 (4인)
+- 진행기간: 2022.10.31 ~ 2022.11.06        
 - 활용 기술스택
     - Environment: NodeJS
     - Language: TypeScript
@@ -121,25 +122,10 @@ nav_order: 2
 
 
 - 담당역할
-    - 쿠폰 API 담당
-        - 운영자만 사용가능 쿠폰 API
-            - [POST] 쿠폰생성
-            - [GET] 모든 쿠폰 목록 조회 및 검색
-            - [GET] 사용자 id를 검색하면, 사용자가 보유한 모든 쿠폰 조회 (기간 지난 쿠폰도 포함)
-            
-        - 일반유저만 사용가능 쿠폰 API
-            - [GET] 사용가능한 보유 쿠폰 조회 & 쿠폰 타입별로 보유쿠폰 검색
-            - [POST] 운영자가 생성한 쿠폰을 받아서 보유 쿠폰으로 등록
-            - [PATCH] 보유쿠폰 기간 연장
-            - [PATCH] 보유쿠폰 사용
-            - [PATCH] 주문취소시 사용했던 보유쿠폰 다시 사용가능한 보유쿠폰으로 복원
-        - ( [:: TODO 👊 ::] 고도화 예정) Scheduler와 axios를 이용하여 달러환율 구하기
-
-    - Github Action & Workflow 세팅
-        - 이슈 생성시 자동으로 브랜치 생성
-        - develop/feature 브랜치에서 푸시할 때, Node.JS 자동 빌드 워크플로우 생성
-
-- 진행기간: 2022.10.31 ~ 2022.11.06        
+  - RestAPI 기반의 쿠폰 서비스 개발
+  - Github Action & Workflow 세팅
+    - 이슈 생성시 자동으로 브랜치 생성
+    - develop/feature 브랜치에서 푸시할 때, Node.JS 자동 빌드 워크플로우 생성
 
 - 블로그 포스팅
     - [쿠폰모듈 어떻게 개발할지 고민했던 흔적](https://ek12mv2.tistory.com/313)
@@ -148,19 +134,46 @@ nav_order: 2
     - [npm ci 명령어로 협업중 package-lock.json 패키기 동기화 시키기](https://ek12mv2.tistory.com/308)
     - [날짜 데이터 insert 하기](https://ek12mv2.tistory.com/316)
 
+
+<details>
+<summary>RestAPI 기반의 쿠폰 서비스 개발 상세</summary>
+
+
+
+1. 운영자만 사용가능 쿠폰 API<br>
+
+- [POST] 쿠폰생성<br>
+- [GET] 모든 쿠폰 목록 조회 및 검색<br>
+- [GET] 사용자 id를 검색하면, 사용자가 보유한 모든 쿠폰 조회 (기간 지난 쿠폰도 포함)<br>
+
+<br><br>
+
+2. 일반유저만 사용가능 쿠폰 API<br>
+
+- [GET] 사용가능한 보유 쿠폰 조회 & 쿠폰 타입별로 보유쿠폰 검
+색<br>
+- [POST] 운영자가 생성한 쿠폰을 
+받아서 보유 쿠폰으로 등록<br>
+- [PATCH] 보유쿠폰 기간 연
+장<br>
+- [PATCH] 보유쿠폰 사용<br>
+
+- [PATCH] 주문취소시 사용했던 보유쿠폰 다시 사용가능한 보유쿠폰으로 복원<br>
+
+</details>
+
+<details>
+<summary>2차례의 팀과제 후기</summary>
+
+
 <br>
-
-```md  
-[팀과제 후기]
-
 팀원의 코드리뷰 너무 좋았습니다! 
 배울점이 많고 실력좋은 동료들과 같이 고민하고, 피드백 받고 개발관련 이야기했던게 너무 아련한 추억이 됐네요...ㅎㅎ
 개인적인 생각이지만, 솔직히 개인과제비중보다는 팀과제의 비중을 늘렸으면 좋겠어요 🥹
 팀과제를 같이하면서 팀원들의 코드를 보는 것마저도 NestJS를 몰랐던 저에겐 너무 도움됐어요..!
-```
-
+</details>
+        
 <br>
-
 
 {: .no_toc}
 ### [4. 비밀글 기능이 포함된 게시판 Restful API 웹서비스](https://github.com/loveAlakazam/3_Posts) 
@@ -229,31 +242,6 @@ nav_order: 2
 
 <br>
 
-[6. [:: TODO 👊 ::] Boss Raid 미니 게임 Restful API 웹서비스(진행중이라서 private 입니다 ^^)](https://github.com/loveAlakazam/5_Boss_Raid_API)
-
-- 개인작업(1인)
-- 활용기술 스택
-    - Environment: NodeJS
-    - Language: TypeScript
-    - Framework: NestJS
-    - Database: AWS RDS (MySQL 8.0), Redis
-    - ORM: TypeORM
-    - Test: Jest
-    - Etc
-        - Github Action & Workflow
-
-
-<br>
-
-[7. [:: TODO 👊 ::] gRPC + NestJS 를 활용한 나만의 SNS 감정노트 Web 서비스 (진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_SNS_Networking)
-
-<br>
-
-
-[8. [:: TODO 👊 ::] NestJS + GraphQL 을 활용한 나만의 가계부 만들기 Web 서비스(진행예정이라서 private 입니다 ^^)](https://github.com/loveAlakazam/My_AccountBooks)
-
-
-<br>
 
 ---
 
@@ -359,12 +347,12 @@ What Did I Do?
 
 >신규입사자들의 입장을 생각하여 신규입사자들이 설치에 어려움없이 빠르게 환경셋팅을  조성할 수 있도록 IDE를 포함한 백엔드 **개발환경 셋팅 가이드라인** 과 **로컬호스트에서 Go-Land 디버깅하는 과정**을 Jira Confluence에 공유했습니다. <br><br>1년동안 사내 Confluence 다큐먼트 중 가장 많은 조회수를 유지했고, 선배동료가 신규입사자에게 제가 만든 다큐먼트를 공유하는 모습을 보며 뿌듯함을 느꼈습니다. 내가 아는 지식을 문서화시키고 공유하여 다른사람에게 작은 도움을 줄 수 있는 개발자가 되고 싶습니다.
 
-
+<!--
 ---
 
-# Associations
+ # Associations
 {: .text-delta}
-
+ -->
 
 ---
 
