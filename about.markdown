@@ -68,8 +68,10 @@ nav_order: 2
   - Environment: Nodejs
   - Framework/Language: Nestjs / Typescript
   - Database / ORM : MySQL / TypeORM
+  - Etc: Swagger, Docker Compose, Github Actions, Event Handler
 - 진행기간: 2023.01 ~
 - 팀프로젝트 모집 사이트 제작
+  - 프로젝트 셋팅 및 클라우드타입으로 이미지 레지스트리와 배포환경 생성
   - 유저 관련 API: 회원가입, 회원탈퇴, 로그인/로그아웃, 회원정보 변경
   - 카카오, 구글 소셜로그인 API
   - 이메일본인 인증 및 비밀번호 변경 API
