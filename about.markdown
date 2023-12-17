@@ -70,10 +70,13 @@ nav_order: 2
   - Database / ORM : MySQL / TypeORM
 - 진행기간: 2023.01 ~
 - 팀프로젝트 모집 사이트 제작
+  - 유저 관련 API: 회원가입, 회원탈퇴, 로그인/로그아웃, 회원정보 변경
+  - 카카오, 구글 소셜로그인 API
+  - 이메일본인 인증 및 비밀번호 변경 API
+  - (진행중) 프로젝트 초대 / 가입 신청 등...
+- [Repository](https://github.com/toy-squad/toy-squad-nest)
 
-
-
-## NodeJS Project Experiences
+<br>
 
 ## 원티드 프리온보딩 5기
 
@@ -289,8 +292,10 @@ Backend Developer
 What Did I Do?
 {: .fs-4}
 
+{: .no_toc}
 ## Sarco-Cloud Project (ing...)
 
+{: .no_toc}
 ## 건강버스 파이어베이스 데이터베이스 설계
 
 
