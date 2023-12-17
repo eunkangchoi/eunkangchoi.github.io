@@ -33,7 +33,7 @@ nav_order: 2
 ### Hobbies
 {: .no_toc .mb-3}
 
-**스포츠** : 수영, 요가, 자전거, 스키
+**스포츠** : **요가**, 수영, 자전거, 스키
 
 **취미** : 웹툰보기, 독서, 신문읽기, 개발 블로그 포스팅
 
@@ -46,8 +46,8 @@ nav_order: 2
 - Frameworks: **Express.js**, **Nest.js**
 - Databases: **MySQL**, **Redis**, **MongoDB**
 - Clouds:  **AWS**, **GCP**
-- CI & CD:  **Docker**, **Kubernetes**
-- Etcs: gRPC , WebSocket, REST API, GraphQL
+- CI & CD:  (Experienced, but not well) Docker, Kubernetes
+- Etcs: REST API, gRPC , WebSocket
 
 
 ---
@@ -60,6 +60,18 @@ nav_order: 2
 
 
 ---
+
+## ToySquad
+
+- 팀작업: 프론트엔드 1인 / 백엔드 2인
+- 활용기술스택
+  - Environment: Nodejs
+  - Framework/Language: Nestjs / Typescript
+  - Database / ORM : MySQL / TypeORM
+- 진행기간: 2023.01 ~
+- 팀프로젝트 모집 사이트 제작
+
+
 
 ## NodeJS Project Experiences
 
@@ -252,9 +264,7 @@ nav_order: 2
 
 ---
 
-
-
-## 스윗코리아
+## DYPHI
 
 {: .d-inline-block }
 
@@ -264,6 +274,34 @@ latest
 Backend Developer
 {: .fs-4 }
 
+> Period
+>> 2023.04 -
+> 
+> Tech Stack
+> - **Programming Language** : Javascript, Typescript
+> - **Framework** : Express.js
+> - **Database** : MySQL, TypeORM, Sequelize
+> - **Cloud**: AWS (Elastic Beanstalk, S3, Lambda)
+> - Etc: REST API, Node.js
+>
+
+
+What Did I Do?
+{: .fs-4}
+
+## Sarco-Cloud Project (ing...)
+
+## 건강버스 파이어베이스 데이터베이스 설계
+
+
+<br><br>
+
+## 스윗코리아
+
+{: .d-inline-block }
+
+Backend Developer
+{: .fs-4 }
 
 > Period
 >> 2021.04 - 2022.06
